@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+    text-decoration: none;    
+}
+
+
+body{ 
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F8FA;
+}
+
+hr{
+    background-color: #F5F7FA;
+    margin-top: 50px;    
+}
+
+
+/* HEADER */
+header{
+    margin-bottom: 3rem;
+}
+
+header .container{
+    padding: 1rem 0;
+    border-bottom: 2px solid #E0E6EA;
+    width: 95vw;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .right{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+
+.right a{
+    color: #1D2C3C;
+    font-weight: 700;
+}
+
+.right .cta{
+    display: block;
+    border: 1px solid #1D2C3C;
+    border-radius: 5px;
+    height: 40px;
+    width: 91px;
+    display: flex;justify-content: center;
+    align-items: center;
+}
+/* END OF HEADER */
+
+
+
+footer{
+    padding: 30px;
+   text-align: center;
+   font-size: 14px;
+}
+
+/* Checkout page styling */
+.para-cont{
+    display: flex; 
+    justify-content: center;  
+    box-shadow: 0 0 15px #00000020;
+    width: 90vw;
+    margin: auto;
+    max-width: 900px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.basic-cont{
+    flex: 1;
+}
+.basic-cont h2{
+    font-size: 36px;
+    padding: 35px;
+    border-bottom: 1px solid #E0E6EA; 
+}
+.first-p{
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 700;
+}
+
+.first-p span{
+    border-radius: 40px;
+    border: 2px solid blue;
+    color: blue;
+    margin-right: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-cont button{
+    background-color: #038E7D;
+    width: 483px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    border: #038E7D;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.mainform-cont{
+    display: flex; 
+    font-size: 14px;
+    padding: 0 2rem;
+}
+.section{
+    padding: 1rem 0;
+    border-bottom: 1px solid #E0E6EA;
+    display: grid;
+    gap: 1rem;
+}
+
+.mainform-cont1{
+    padding: 0 35px;
+}
+.form-cont input{
+    display: block;
+    width: 227px;
+    height: 36px;
+    background-color: #EDEFF2;
+    margin-right: 30px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: #EDEFF2;
+    padding-left: 15px;
+    
+}
+.email-cont input{
+    display: block;
+    width: 370px;
+    height: 36px;
+    background-color: #EDEFF2;
+    margin-right: 30px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: #EDEFF2;
+    padding-left: 15px;
+}
+
+.card-cont input{
+    display: block;
+    width: 483px;
+    height: 36px;
+    background-color: #EDEFF2;
+    margin-right: 30px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: #EDEFF2;
+    padding-left: 15px;
+    word-spacing: 150px;
+}
+.help-p{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 16.8px;
+}
+.help-p span{
+    font-weight: 700;  
+    padding-left: 30px; 
+}
+.help-p img{
+   position: absolute;
+}
+
+.power-p{
+    background-color: #566473;
+    color: #DADADA;
+    width: 92px;
+    height: 20.1px;
+    text-align: center;
+    font-size: 8px;
+    margin: 30px;
+    margin-left: 200px;
+    border-radius: 5px;
+    font-weight: 700;
+    padding-top: 2px;
+}
+.power-p span{
+    font-family: Jockey One;
+    font-size: 14px;
+}
+/* Freelancer Page styling */
+.free-cont{
+    background-color: #1179bf;
+    padding: 40px 60px;
+    width: 312px;
+    color: white;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.free-cont h2{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.free-cont ul{
+   font-size: 16px;
+   padding-top: 20px;
+   list-style-type: none;
+}
+.free-cont ul img{
+    padding-right: 10px;
+    padding-top: 15px;
+}
+.price-p{
+    font-size: 16px;
+    font-style: italic;
+    padding-right: 20px;
+}
+ .price{font-size: 60px;
+    line-height: 72px;
+    padding-top: 10px;
+}
+.price span{
+    font-size: 18px;
+    line-height: 21.6px;
+}
+.free-p{font-size: 16px;
+font-weight: 400;
+padding-top: 20px;
+padding-right: 10px;
+}
+.free-p a{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-decoration: underline solid;
+}
+.last-p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+    padding-top: 20px;
+    width: 220px;
+}
+.last-p img{
+    width: 40px;
+    height: 40px;
+    border: 10px;
+    border-radius: 40px;
+}
+.lastp-img{
+display: flex;
+padding-top: 20px;
+}
+.lastp-img h4{
+font-size: 16px;
+font-weight: 700;
+padding-left: 15px;
+padding-top: 10px;
+}
+
+/* Media Query */
+
+/* Tablet View (Max Width: 1024px) */
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        padding: 20px 0;
+        font-size: 14px;
+    }
+
+    nav a {
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-container {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .basic-cont button {
+        width: 100%; 
+        margin: 20px 0;
+    }
+
+    .mainform-cont {
+        flex-direction: column;
+        padding: 20px;
+        padding-left: 30px;
+    }
+    .form-cont,
+    .email-cont,
+    .card-cont {
+      padding-bottom: 20px;
+    }
+
+    .free-cont {
+        padding: 20px;
+    }
+}
+
+/* Mobile View (Max Width: 768px) */
+@media (max-width: 768px) {
+    .para-cont
+    {
+        flex-direction: column;
+    }
+    .img-container img {
+        padding: 10px;
+        width: 50%;
+        height: 50px;
+    }
+    nav {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    nav button {
+        width: 80px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .basic-cont h2 {
+        font-size: 24px;
+        padding: 20px;
+        
+    }
+
+    .basic-cont button {
+        width: 100%; 
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .mainform-cont {
+        flex-direction: column;
+    }
+
+    .form-cont input,
+    .email-cont input,
+    .card-cont input {
+        margin-top: 5px;
+        width: 80%;
+    }
+
+    .free-cont {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .free-cont h2 {
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 36px;
+    }
+
+    .lastp-img {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .lastp-img h4 {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .card-cont input{
+        word-spacing: 70px;
+    }
+}
